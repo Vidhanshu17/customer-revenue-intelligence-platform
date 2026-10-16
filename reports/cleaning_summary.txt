@@ -1,0 +1,18 @@
+CLEANING PIPELINE SUMMARY
+==================================================
+Source rows: 541,909
+Output rows: 541,909
+Rows preserved: True
+Excess exact duplicates flagged: 5,268
+Cancellation-marked rows: 9,288
+Negative quantities: 10,624
+Zero prices: 2,515
+Negative prices: 2
+Missing customer IDs: 135,080
+Missing descriptions: 1,454
+Eligible positive sales rows: 524,878
+Eligible positive sales value: 10,642,110.80
+
+No source rows were deleted by this pipeline.
+Negative quantities and unusual prices remain flagged.
+Sales eligibility is a provisional analytical rule.

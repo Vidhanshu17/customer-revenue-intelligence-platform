@@ -1,0 +1,100 @@
+CUSTOMER REVENUE INTELLIGENCE PLATFORM
+INITIAL DATA PROFILE
+============================================================
+
+Dataset file: Online Retail.xlsx
+Rows: 541,909
+Columns: 8
+Memory usage: 126.18 MB
+
+COLUMN NAMES AND DATA TYPES
+InvoiceNo              object
+StockCode              object
+Description            object
+Quantity                int64
+InvoiceDate    datetime64[ns]
+UnitPrice             float64
+CustomerID            float64
+Country                object
+dtype: object
+
+MISSING VALUES
+InvoiceNo           0
+StockCode           0
+Description      1454
+Quantity            0
+InvoiceDate         0
+UnitPrice           0
+CustomerID     135080
+Country             0
+dtype: int64
+
+EXACT DUPLICATE ROWS
+5268
+
+DISTINCT VALUES
+Distinct invoices: 25900
+Distinct products: 4070
+Distinct identified customers: 4372
+Distinct countries: 38
+
+INVOICE DATE RANGE
+Earliest: 2010-12-01 08:26:00
+Latest: 2011-12-09 12:50:00
+Invalid dates: 0
+
+QUANTITY PROFILE
+count    541909.000000
+mean          9.552250
+std         218.081158
+min      -80995.000000
+25%           1.000000
+50%           3.000000
+75%          10.000000
+max       80995.000000
+Name: Quantity, dtype: float64
+Negative quantities: 10624
+Zero quantities: 0
+
+UNIT PRICE PROFILE
+count    541909.000000
+mean          4.611114
+std          96.759853
+min      -11062.060000
+25%           1.250000
+50%           2.080000
+75%           4.130000
+max       38970.000000
+Name: UnitPrice, dtype: float64
+Negative prices: 2
+Zero prices: 2515
+
+CANCELLATION INDICATORS
+Rows with invoice numbers starting with C: 9288
+Distinct cancellation invoice IDs: 3836
+
+CUSTOMER ID COVERAGE
+Rows with missing CustomerID: 135080
+Rows with identified CustomerID: 406829
+
+TOP 10 COUNTRIES BY ROW COUNT
+Country
+United Kingdom    495478
+Germany             9495
+France              8557
+EIRE                8196
+Spain               2533
+Netherlands         2371
+Belgium             2069
+Switzerland         2002
+Portugal            1519
+Australia           1259
+Name: count, dtype: int64
+
+SAMPLE RECORDS
+InvoiceNo StockCode                         Description  Quantity         InvoiceDate  UnitPrice  CustomerID        Country
+   536365    85123A  WHITE HANGING HEART T-LIGHT HOLDER         6 2010-12-01 08:26:00       2.55     17850.0 United Kingdom
+   536365     71053                 WHITE METAL LANTERN         6 2010-12-01 08:26:00       3.39     17850.0 United Kingdom
+   536365    84406B      CREAM CUPID HEARTS COAT HANGER         8 2010-12-01 08:26:00       2.75     17850.0 United Kingdom
+   536365    84029G KNITTED UNION FLAG HOT WATER BOTTLE         6 2010-12-01 08:26:00       3.39     17850.0 United Kingdom
+   536365    84029E      RED WOOLLY HOTTIE WHITE HEART.         6 2010-12-01 08:26:00       3.39     17850.0 United Kingdom
